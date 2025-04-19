@@ -292,7 +292,7 @@ display: block;
 
 /* inner */
 .inner {
-width: min(100% - 2rem, 1100px);
+width: min(100% - 10rem, 1100px);
 margin-inline: auto;
 }
 
@@ -378,6 +378,10 @@ font-size: 1.4vw;
 
 /* max 767px */
 @media screen and (max-width: 767px) {
+    /* inner */
+.inner {
+    width: min(100% - 4rem, 1100px);
+}
 .pc,
 .tb2 {
     display: none;
