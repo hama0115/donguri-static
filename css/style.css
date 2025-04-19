@@ -1,38 +1,4 @@
 @charset "UTF-8";
-header{
-    padding: 10px min(5%, 40px);
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: var(--white);
-    z-index: 10;
-    .flex-start{
-        position: relative;
-        &::after{
-            content: "";
-            position: absolute;
-            bottom: -10px;
-            /* left: min(5%, 40px);
-            width: max(calc(100% - 80px), 90%); */
-            left: 0;
-            width: 100%;
-            height: 1px;
-            background: var(--gray);
-            z-index: 1;
-        }
-        .header__social{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            a{
-                color: var(--black);
-            }
-        }
-    }
-}
-
 /* common */
 .title{
     font-weight: 600;
@@ -356,16 +322,13 @@ header{
     }
 }
 
-/* footer */
-footer{
-    background: var(--black);
-    text-align: center;
-    height: 80px;
-    align-content: center;
-}
 
 /* 1024px */
 @media screen and (max-width: 1024px) {
+    /* fv */
+    #fv__area{
+
+    }
 }
 
 
