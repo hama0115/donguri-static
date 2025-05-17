@@ -185,6 +185,9 @@ font-size: 1.4rem;
 .en{
     font-family: "Noto Serif JP", "Noto Serif", "Hiragino Mincho ProN";
 }
+.en-a{
+    font-family: "Arial", "Noto Serif JP", "Noto Serif", "Hiragino Mincho ProN";
+}
 
 /* 縦書き */
 /* ++++++++++++++++++++++++++++++++++++++++++++++ */
@@ -261,6 +264,9 @@ header{
     height: 70px;
     background: var(--white);
     z-index: 10;
+    &.l-blue{
+        background: var(--l-blue);
+    }
     .flex-start{
         position: relative;
         /* padding: 10px min(5%, 40px); */

@@ -23,7 +23,7 @@
     bottom: 0;
     left: 0;
     background: var(--gray);
-    height: 20%;
+    height: 158px;
     z-index: 2;
     display: flex;
     align-items: center;
@@ -39,11 +39,11 @@
     #fv__area{
         position: relative;
         width: 100%;
-        height: 100vh;
+        height: 800px;
         overflow: hidden;
         .slide{
             display: flex;
-            padding-top: 16vh;
+            padding-top: 120px;
             height: 30%;
             justify-content: baseline;
             .item{
@@ -65,7 +65,7 @@
         .content{
             position: relative;
             background: var(--blue);
-            height: 50%;
+            height: 400px;
             .inner{
                 .txt{
                     position: absolute;
@@ -296,6 +296,89 @@
                         padding-left: 1em;
                     }
                 }
+            }
+        }
+    }
+}
+
+.contact_page{
+    background: var(--l-blue);
+    padding: 140px 0;
+    .inner{
+        background: var(--white);
+        justify-content: center;
+        padding: 60px 0;
+        .title{
+            text-align: center;
+        }
+        .sub{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
+        .kome{
+            color: red;
+        }
+        .contact-form{
+            width: min(90%, 700px);
+            margin: auto;
+            .personal{
+                margin-bottom: 50px;
+                .contact-box{
+                    display: flex;
+                    margin-bottom: 20px;
+                    align-items: center;
+                    .txt-16{
+                        width: 30%;
+                        margin-right: 20px;
+                        line-height: 1.6;
+                    }
+                    .right-box{
+                        width: 70%;
+                        height: 40px;
+                    }
+                }
+            }
+            .question{
+                margin-top: 40px;
+                .en-a{
+                    color: var(--blue);
+                    font-weight: 500;
+                    font-size: 2.2rem;
+                    margin-right: 10px;
+                }
+                .checkbox-group{
+                    .txt-16{
+                        input{
+                            margin-right: 20px;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+            .toiawase{
+                vertical-align: top;
+                gap: 20px;
+                margin-top: 40px;
+                label{
+                    width: 30%;
+                    text-align: left !important;
+                    line-height: 1.6;
+                }
+                textarea{
+                    width: 100%;
+                    height: 200px;
+                    padding: 10px;
+                    border-radius: 10px;
+                    border: 1px solid var(--gray);
+                    resize: none;
+                }
+            }
+            button{
+                text-align: center;
+                display: flex;
+                margin: auto;
+                margin-top: 50px;
             }
         }
     }
